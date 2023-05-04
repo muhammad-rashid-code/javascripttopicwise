@@ -13,3 +13,7 @@
 // // In this example, the regular expression /o/g is used to replace all occurrences of the character "o" in the string "Hello, world!" with the character "a". The new string is then stored in the variable newStr, and the output will be "The new string is: Hella, warld!".
 // Note that the regular expression is enclosed in forward slashes / /, and the g modifier is used to replace all occurrences of the pattern.
 // You can also chain multiple replace() methods to replace multiple characters or patterns in a string.
+
+//__________________SirIshaqBhojani_______________________
+let text = "This Is An Apple";
+console.log(text.replace("Apple","Orange"));

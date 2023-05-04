@@ -33,4 +33,35 @@
 
 // // These are just a few examples of the many string methods available in JavaScript that can be used to find segments of a string.
 
- 
+ //__________________SirIshaqBhojani_______________________
+//  let text = "This Is An Apple";
+//  console.log(text.indexOf("Apple")); //OutPut:11
+
+// let text = "This Is An Apple";
+//  console.log(text.indexOf("Orange"));//OutPut:-1
+//The above FUNCTION Will be show result -1 Which means |Orange does not exist
+
+// let text = "This Is An Apple";
+// console.log(text.indexOf("Orange"))!== -1;//OUyPUt :this code will be run in console;
+
+// let text = "This is An Apple";
+// console.log(text.indexOf("is"))//OutPut:2
+
+// let text = "This is An Apple";
+// console.log(text.lastIndexOf("is"));//OutPut : 5
+
+// let text = "This Is An Apple";
+// console.log(text.slice(0,1));// OutPut:T
+
+// let text = "This Is An Apple";
+// console.log(text.charAt(0));// OutPut:T
+
+// let text = "This Is An Apple";
+// console.log(text.charAt(8));// OutPut:A
+
+// let text = "This Is An Apple";
+// console.log(text.charAt(11));// OutPut:A
+
+let text = "This Is An Apple";
+console.log(text.charAt (text.length-1));// OutPut:e
+

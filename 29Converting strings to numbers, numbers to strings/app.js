@@ -18,3 +18,8 @@
 //Note that when converting a string to a number, if the string contains non-numeric characters, the resulting value will be NaN (Not a Number). When converting a number to a string, the resulting value will always be a string.
 
 //You can also use the parseInt() and parseFloat() functions, which were discussed in a previous answer, to convert strings to integers and decimals, respectively.
+
+//__________________SirIshaqBhojani_______________________
+
+// let num=+prompt("Enter A number")
+// alert(num.toString());//OutPut is accroding to sheet ishaq21:06 jacascript

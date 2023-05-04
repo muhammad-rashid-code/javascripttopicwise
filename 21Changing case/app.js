@@ -14,3 +14,16 @@
 // let newString=myString.slice(0,charIndex)+myString.charAt(charIndex).toLowerCase()+myString.slice(charIndex+1);
 // console.log(newString);//Output: "Hello wOrld"(wrong)
 // //In this example, the charAt() method is used to get the character at index 6, which is the letter "W". Then, the toLowerCase() method is used to convert that character to lowercase. Finally, the slice() method is used to concatenate the original string up to the changed character, the changed character, and the rest of the original string. The result is the string with only the "W" changed to lowercase.
+
+// ____________SirIshaqBhojani________________________
+// var text="This IS An Apple";
+// console.log(text.toLowerCase());
+
+// var text="This IS An Apple";
+// console.log(text.toUpperCase());
+
+// var text="This IS An Apple";
+// //console.log(text.toUpperCase());
+// var text=text.toUpperCase();
+// console.log(text)
+
