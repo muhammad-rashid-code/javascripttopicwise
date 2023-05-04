@@ -25,8 +25,33 @@
 // // console.log(date); //OutPut:Thu May 04 2023 08:09:14 GMT+0500 (Pakistan Standard Time)
 // console.log(date.toString());//OutPut:'Thu May 04 2023 08:12:58 GMT+0500 (Pakistan Standard Time)'
 
-//var date=new Date();
+// var date=new Date();
 //console.log(date.getDate());// OutPut:4
 //console.log(date.getFullYear());// OutPut: 2023
 //console.log(date.getMonth()+1);//OutPut: 5
 //console.log(date.getTimezoneOffset());//OutPut: -300;
+
+// var date=new Date();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// console.log(dayNames[date.getDay()]); //OutPut: Thu
+
+// var date=new Date();
+// var diff=date.getTime();
+// //console.log(date.getTime());// OutPut 1683171179801 milli second from jan 1st 1970
+
+// var date1=new Date();
+// //console.log(date.getTime()); //OutPut 
+// console.log(date1.getTime()-diff.getTime()); //consfuion
+
+// let now = new Date();
+// console.log(now.getTime());
+
+// let now1 = new Date();
+// console.log(now1.getTime());
+
+// console.log(now1.getTime() - now.getTime());
+
+// const now=new Date();
+// const later=new Date(now.getTime());
+// console.log(getDaysDiff(now,later));
+
