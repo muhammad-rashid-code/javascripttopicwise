@@ -55,3 +55,33 @@
 // const later=new Date(now.getTime());
 // console.log(getDaysDiff(now,later));
 
+//getting current date:
+// var currentDate=new Date();
+// console.log(currentDate.getTime());
+
+// Getting Current Date;
+// var today=new Date();
+// var myBirth=new Date("April 04,1994");
+
+// var msToday=today.getTime();
+// var msMyBirth=today.getTime();
+// var msDiff=msToday-msMyBirth;
+// var dayDiff=msDiff/(1000*60*60*24);
+// dayDiff=Math.floor(dayDiff);"June 30, 2035"
+
+// console.log
+
+// var msDiff=new Date().getTime-new Date("Aprin 04, 1994");
+// var myBirth=Math.floor(msDiff/1000*60*60*24);
+// console.log(myBirth);
+
+//var msDiff = new Date("June 30, 2035").getTime() - new Date().getTime();
+//var daysTillDoom = Mathfloor(msDiff / (1000 * 60 * 60 * 24));
+
+// var msDiff = new Date().getTime() - new Date("April 04, 1994").getTime();
+// var myBirth = Math.floor(msDiff / 1000 * 60 * 60 * 24);
+// console.log(myBirth);
+
+var msDiff = new Date().getTime() - new Date("April 04, 1994").getTime();
+var myBirth = Math.floor(msDiff / (1000 * 60 * 60 * 24));
+console.log(myBirth);

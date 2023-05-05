@@ -26,4 +26,7 @@
 // //console.log(text.toUpperCase());
 // var text=text.toUpperCase();
 // console.log(text)
-
+//Function having abilty to convert Strigs to upper case
+var tex="BanoQabil"
+var changeCase=tex.toUpperCase();
+console.log(changeCase);
