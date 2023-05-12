@@ -24,4 +24,21 @@
 // console.log(numbers[i])
 // }
 
-    
+    // for(var i=1; i<11; i++){console.log("hello world");
+
+    // }
+
+    // for(var i=5; i<51; i=i+5){console.log(i)
+
+    // }
+
+    // for(var i=50; i<4; i=i-4){console.log(i)
+
+    // }
+
+    // revers table of 5
+    // for (let i=50; i>4;i=i-5){console.log(i)
+
+    // }
+
+    for(let i=2;i<=10;i++){console.log("2"+"x"+i+"="+i*2)}
