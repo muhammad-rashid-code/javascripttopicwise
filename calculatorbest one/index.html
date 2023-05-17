@@ -1,0 +1,86 @@
+!
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1 class="d-flex  justify-content-center align-items-center">Calculator</h1>
+    <div class="container d-flex w-50 justify-content-center align-items-center">
+        <table class="table d-flex w-50 justify-content-center align-items-center">
+            <tr>
+                <td colspan="7"> <input type="text" id="result" class="w-100"></td>
+            </tr>
+            <!-- <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody> -->
+            <tr>
+                <!-- <th scope="row">1</th> -->
+                <td> <button onclick="clearResult('')" type="button" class="w-100 btn btn-outline-primary">C</button></td>
+                <!-- <td>+/-</td> -->
+                <td> <BUtton onclick="grt_num('%')" type="button" class="w-100 btn btn-outline-primary">%</BUtton></td>
+                <td><button onclick="get_num('/')" type="button" class="w-100 btn btn-outline-secondary">/</button></td>
+            </tr>
+            <tr>
+                <!-- <th scope="row">2</th> -->
+                <td><button onclick="get_num('7')" type="button" class="w-100 btn btn-outline-primary">7</button></td>
+                <td><button onclick="get_num('8')" type="button" class="w-100 btn btn-outline-primary">8</button></td>
+                <td><button onclick="get_num('9')" type="button" class="w-100 btn btn-outline-primary">9</button></td>
+                <td><button onclick="get_num('*')" type="button" class="w-100 btn btn-outline-secondary">X</button></td>
+            </tr>
+            <tr>
+                <!-- <th scope="row">3</th> -->
+                <td><button onclick="get_num('4')" type="button" class="w-100 btn btn-outline-primary">4</button></td>
+                <td><button onclick="get_num('5')" type="button" class="w-100 btn btn-outline-primary">5</button></td>
+                <td><button onclick="get_num('6')" type="button" class="w-100 btn btn-outline-primary">6</button></td>
+                <td><button onclick="get_num('-')" type="button" class="w-100 btn btn-outline-secondary  ">-</button></td>
+            </tr>
+            <tr>
+                <!-- <th scope="row"></th> -->
+                <td><button onclick="get_num('1')" type="button" class="w-100 btn btn-outline-primary">1</button></td>
+                <td><button onclick="get_num('2')" type="button" class="w-100 btn btn-outline-primary">2</button></td>
+                <td><button onclick="get_num('3')" type="button" class="w-100 btn btn-outline-primary">3</button></td>
+                <td><button onclick="get_num('+')" type="button" class="w-100 btn btn-outline-secondary">+</button></td>
+            </tr>
+            <tr>
+                <!-- <th scope="row"></th> -->
+                <td><button onclick="get_num('0')" type="button" class="w-100 btn btn-outline-primary">0</button></td>
+                <td><button onclick="get_num('.')" type="button" class="w-100 btn btn-outline-primary">.</button></td>
+                <td><button onclick="getResult('')" type="button" class="w-100 btn btn-outline-secondary">=</button></td>
+                <!-- <td></td> -->
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

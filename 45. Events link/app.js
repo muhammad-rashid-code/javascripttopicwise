@@ -31,3 +31,13 @@
 
 // MDN Web Docs: Events
 // W3Schools: JavaScript Events
+
+// sir ishaq bhojani
+
+// function test (val){
+// console.log(val)
+// }
+
+function test (val){
+console.log(val);
+}
